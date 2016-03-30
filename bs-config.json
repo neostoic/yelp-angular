@@ -1,6 +1,6 @@
 {
     "port": 8000,
-    "files": ["./**.*"],
+    "files": ["./src/**/*.*"],
     "server": {
         "baseDir": "./src",
         "routes": {
