@@ -1,0 +1,46 @@
+{
+  "name": "yelp-angular",
+  "version": "1.0.0",
+  "description": "A simple Angular 2 implementation to query the Yelp Business API",
+  "main": "main.js",
+  "scripts": {
+    "start": "concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lite": "lite-server",
+    "typings": "typings",
+    "postinstall": "typings install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btormey/yelp-angular.git"
+  },
+  "keywords": [
+    "angular",
+    "yelp",
+    "rxjs"
+  ],
+  "author": "Barry Tormey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/btormey/yelp-angular/issues"
+  },
+  "homepage": "https://github.com/btormey/yelp-angular#readme",
+  "dependencies": {
+    "angular2": "2.0.0-beta.12",
+    "bootstrap": "^3.3.6",
+    "es6-shim": "^0.35.0",
+    "jquery": "^2.2.2",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.2",
+    "zone.js": "0.6.6",
+    "systemjs": "0.19.24"
+  },
+  "devDependencies": {
+    "concurrently": "^2.0.0",
+    "lite-server": "^2.1.0",
+    "typescript": "^1.8.9",
+    "typings": "^0.7.9"
+  },
+  "jspm": {}
+}

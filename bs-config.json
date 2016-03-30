@@ -1,0 +1,12 @@
+{
+    "port": 8000,
+    "files": ["./**.*"],
+    "server": {
+        "baseDir": "./src",
+        "routes": {
+            "/node_modules": "node_modules",
+            "/jspm_packages": "jspm_packages",
+            "/config.js": "config.js"
+        }
+    }
+}
